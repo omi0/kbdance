@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Embedded into the kbdance binary (__TEXT,__info_plist) so macOS can show these
+     reasons in its permission dialogs and file the permission under kbdance itself. -->
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>io.github.omi0.kbdance</string>
+    <key>CFBundleName</key>
+    <string>kbdance</string>
+    <key>NSAudioCaptureUsageDescription</key>
+    <string>kbdance listens to what your Mac is playing so the keyboard backlight can pulse along. Audio is analyzed live and never saved.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>kbdance listens to the microphone so the keyboard backlight can pulse along. Audio is analyzed live and never saved.</string>
+</dict>
+</plist>
